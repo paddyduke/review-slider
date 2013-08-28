@@ -1,0 +1,124 @@
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial;
+	font-size: 16px;
+	line-height: 25px;
+	color: #222;
+}
+
+h3 {
+	font-size: 20px;
+	font-weight: 600;
+	margin: 0 0 20px;
+	font-style: italic;
+}
+
+h3 .bracket {
+	font-weight: 500;
+}
+
+h3.indented {
+	margin-left: 135px;
+}
+
+h4 {
+	font-weight: 600;
+	margin: 0 0 10px;
+}
+
+strong {
+	font-weight: 600;
+}
+
+em {
+	font-style: italic;
+}
+
+.wrapper {
+	position: relative;
+	margin: 200px auto 0;
+	width: 1180px;
+	overflow: hidden;
+}
+
+.reviews {
+	float: left;
+	position: relative;
+	padding: 0 0 0 135px;
+	height: 300px;
+	width: 5000px;
+}
+
+.reviews ul li {
+	position: relative;
+	float: left;
+	width: 395px;
+	padding: 20px;
+	margin-right: 40px;
+	background: #e2f0ee;
+	border-radius: 4px;
+}
+
+.reviews p:before {
+	content: "“";
+}
+
+.reviews p:after {
+	content: "”";
+}
+
+/*
+.reviews ul li:hover {
+	background: #fdfdfd;
+	cursor: pointer;
+}
+*/
+
+.btn_next, 
+.btn_prev {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	padding: 10px;
+	text-align: center;
+	background: #6fc7bb;
+	border-radius: 50%;
+	border: 5px solid white;
+	color: #fff;
+	font-weight: 600;
+	box-shadow: 0px 1px 3px black;
+}
+
+.btn_next:hover,
+.btn_prev:hover {
+	cursor: pointer;
+	background: #9eccc6;
+}
+
+.btn_next {
+	right: 15px;
+	top: 100px;
+}
+
+.btn_prev {
+	left: 15px;
+	top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
